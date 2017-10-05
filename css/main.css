@@ -18,7 +18,19 @@ ul, nav {
   background-color: #eee8d5;
 }
 
-.contents, .favs, .facts, .types {
+#contents {
+  color: #93a1a1;
+}
+
+#favs {
+  color: #93a1a1;
+}
+
+#facts {
+  color: #93a1a1;
+}
+
+#types {
   color: #93a1a1;
 }
 
@@ -27,7 +39,7 @@ ul, nav {
 }
 
 p + strong {
-  color; #fff;
+  color: #fff;
 }
 
 a {
@@ -38,7 +50,7 @@ a {
   background-color: #fdf6e3;
 }
 
-.no-highlight > rel {
+[rel="external"] {
   background-color: #2694d8;
 }
 
@@ -58,6 +70,6 @@ ol li:last-child {
   background-color: #586e75;
 }
 
-.types li:nth-child(3){
+.types li:nth-child(3n){
   background-color: #d04b16;
 }
